@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.control.Button?>
+<StackPane xmlns:fx="http://javafx.com/fxml" fx:controller="proiect2poo.tournamenttracker.ui.MainMenuController">
+    <ImageView fx:id="imgBackground" fitWidth="600" fitHeight="400" opacity="0.35" preserveRatio="true" />
+    <VBox spacing="20" alignment="CENTER" style="-fx-padding: 35;">
+        <Button fx:id="btnAdaugaJucator" text="Adaugă Jucător" minWidth="200">
+            <graphic>
+                <ImageView fitWidth="20" fitHeight="20" preserveRatio="true" image="@icon_user.png"/>
+            </graphic>
+        </Button>
+        <Button fx:id="btnAdaugaEchipa" text="Adaugă Echipă" minWidth="200">
+            <graphic>
+                <ImageView fitWidth="20" fitHeight="20" preserveRatio="true" image="@icon_team.png"/>
+            </graphic>
+        </Button>
+        <Button fx:id="btnGenereazaMeciuri" text="Generează Meciuri" minWidth="200">
+            <graphic>
+                <ImageView fitWidth="20" fitHeight="20" preserveRatio="true" image="@icon_match.png"/>
+            </graphic>
+        </Button>
+        <Button fx:id="btnClasament" text="Clasament" minWidth="200">
+            <graphic>
+                <ImageView fitWidth="20" fitHeight="20" preserveRatio="true" image="@icon_rank.png"/>
+            </graphic>
+        </Button>
+        <Button fx:id="btnIesire" text="Ieșire" minWidth="200">
+            <graphic>
+                <ImageView fitWidth="20" fitHeight="20" preserveRatio="true" image="@icon_exit.png"/>
+            </graphic>
+        </Button>
+    </VBox>
+</StackPane>
